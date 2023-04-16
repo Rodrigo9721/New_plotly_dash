@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: #415f78;
+    font-family: "Poppins", sans-serif;
+}
+.a{
+    position: absolute;
+}
+
+.main {
+    overflow-x: hidden;
+}
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    color: red
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+. form input{
+    width: 100%;
+    height: 100%;
+    color: #595f6e;
+    padding-top: 20px;
+    border:none;
+}
+
+dl{
+     width: 100%;
+     background: #fff;
+     padding: 5px 15px;
+  }
+dt, dd{
+     display: inline;
+  }
+
+.label {
+  color: white;
+  padding: 8px;
+}
+
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.muybueno {background-color: #dbe5d4; font-size: 10px;} /* Green */
+.bueno {background-color: #FCFF33; font-size: 10px;} /* Blue */
+.regular {background-color: #FFBE33; font-size: 10px;} /* Orange */
+.riesgoso {background-color: #FF3333; font-size: 10px;} /* Red */
+
+
+.pos{
+    position: relative;
+    margin: 10px 50px 20px;
+}
+
+.rows{
+    
+    width: auto;
+    
+}
+
+.reset{
+    position: relative;
+    float: right;
+    margin: 10px 50px 20px;
+}
+.search {
+    background-color: #6d7e7d;
+}
+.button-1 {
+    background-color: #6d7e7d;
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    line-height: 20px;
+    list-style: none;
+    margin: 10px 50px 20px;
+    outline: none;
+    padding: 10px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-1:hover,
+  .button-1:focus {
+    background-color: #6d7e7d;
+  }
+
+ .bar {
+    width:1200px; /* or whatever width you want. */
+    color: #6d7e7d;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ .table_contratos {
+    width:1000px; /* or whatever width you want. */
+    color: #6d7e7d;
+    display: inline-block;
+ }
+ .historial {
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+ }
